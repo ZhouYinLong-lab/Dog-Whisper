@@ -14,16 +14,16 @@
 
 ### 第二组：理解不同的标签与建模方式
 
-4. Hara et al. 2019 - TRP-based turn-taking prediction
-5. Coman et al. 2019 - Incremental turn-taking model
-6. Roddy et al. 2018 - Continuous turn-taking prediction
+4. [Roddy et al. 2018 - Continuous turn-taking prediction](04-Roddy2018-Continuous-Turn-Taking.md)
+5. [Hara et al. 2019 - TRP-based turn-taking prediction](05-Hara2019-TRP.md)
+6. [Coman et al. 2019 - Incremental turn-taking model](06-Coman2019-Incremental.md)
 
 ### 第三组：看扩展方向与评价问题
 
-7. Fujie et al. 2021 - Timing Generating Networks
-8. Ekstedt et al. 2023 - Automatic evaluation of turn-taking cues
-9. Uro et al. 2024 - Terminality of speech-turn boundary
-10. Schwarz et al. 2023 - Predictive ASR for latency reduction
+7. [Fujie et al. 2021 - Timing Generating Networks](07-Fujie2021-Timing-Generating-Networks.md)
+8. [Ekstedt et al. 2023 - Automatic evaluation of turn-taking cues](https://www.isca-archive.org/interspeech_2023/ekstedt23_interspeech.html)
+9. [Uro et al. 2024 - Terminality of speech-turn boundary](08-Uro2024-Terminality.md)
+10. [Schwarz et al. 2023 - Predictive ASR for latency reduction](09-Schwarz2023-Predictive-ASR.md)
 
 ## 每篇论文的阅读方式
 
@@ -52,4 +52,3 @@
 1. 固定静音阈值为什么不够？
 2. 增量文本相比声学信号多提供了什么信息？
 3. 我们的评价是否必须同时包含 latency 和 cut-in？
-
