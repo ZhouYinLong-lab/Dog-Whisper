@@ -25,6 +25,11 @@
 9. [Uro et al. 2024 - Terminality of speech-turn boundary](08-Uro2024-Terminality.md)
 10. [Schwarz et al. 2023 - Predictive ASR for latency reduction](09-Schwarz2023-Predictive-ASR.md)
 
+### 第四组：当前可复现实验基准
+
+11. [Jiang et al. 2026 - TurnBench](10-Jiang2026-TurnBench.md)
+12. [eot-bench - End-of-Turn Benchmark 资源](11-EotBench-Resource.md)
+
 ## 每篇论文的阅读方式
 
 第一次阅读不要马上记所有细节，按下面顺序完成：
@@ -47,8 +52,10 @@
 
 ## 当前阅读任务
 
-先精读 `01-Maier2017-End-of-Turn.md`，读完后再读 `02-Chang2022-Turn-Taking.md`。两篇读完，应该能回答：
+先精读 `01-Maier2017-End-of-Turn.md`，读完后再读 `10-Jiang2026-TurnBench.md`。两篇读完，应该能回答：
 
 1. 固定静音阈值为什么不够？
 2. 增量文本相比声学信号多提供了什么信息？
 3. 我们的评价是否必须同时包含 latency 和 cut-in？
+
+然后核验 TurnBench 和 eot-bench 的数据权限、标签和 scorer，决定第一阶段使用哪个 benchmark。
