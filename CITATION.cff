@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Dog-Whisper: Streaming Spoken Dialogue End-of-Turn Research"
+message: "If this repository supports your work, please cite this repository and the original papers listed in the literature survey."
+type: software
+authors:
+  - name: "ZhouYinLong-lab"
+repository-code: "https://github.com/ZhouYinLong-lab/Dog-Whisper"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-03
