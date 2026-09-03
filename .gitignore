@@ -21,3 +21,8 @@ data/
 datasets/
 outputs/
 checkpoints/
+
+# Materials intentionally excluded from this public research repository
+project.pdf
+导师指导.md
+候选调研方向对比.md
