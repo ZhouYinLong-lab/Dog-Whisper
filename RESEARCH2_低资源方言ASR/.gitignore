@@ -1,0 +1,15 @@
+# Local/raw data and generated artifacts
+data_raw/
+_external/
+data_*/audio/
+manifests/*.jsonl
+*.wav
+*.parquet
+*.zip
+
+# Model weights, checkpoints, and per-example predictions
+results/**/checkpoint*/
+results/**/*.safetensors
+results/**/*.pt
+results/**/*.pth
+results/**/*.jsonl
